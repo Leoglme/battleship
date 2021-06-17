@@ -1,6 +1,8 @@
 NOTE D'INTENTION
 ================
 
+Projet en groupe de 2 personnes from scratch de 1 semaine, l'objectif était de récupérer un code déjà en place mais remplis d'erreurs afin de fixer et améliorer le jeu battleship. Ce projet à été réalisé avec le language javascript.
+
 Le code est organisé autour de différents composants (objet) les principaux étant le "jeu" (fichier game.js), et les joueurs (fichier player.js et computer.js), chacun des objets est accessible dans le scope global.
 
 au chargement de la page on invoque la méthode init de l'objet game. Ce dernier contient et gère "l'état" du jeu (qui sont les adversaires, à quelle phase de jeu en est-on, à qui est-ce de jouer, etc...) et permet (appelle la fonction), ou ne permet pas (ne fait rien) les actions des différents joueurs.
